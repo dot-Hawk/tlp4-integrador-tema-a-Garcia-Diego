@@ -1,0 +1,20 @@
+{
+  "name": "tlp4-integrador-tema-a-estacionamiento",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TLP IV - Examen integrador - Tema A - Estacionamiento",
+  "type": "module",
+  "scripts": {
+    "ej1": "tsx src/ejercicio1.ts",
+    "ej2": "tsx src/ejercicio2.ts",
+    "ej3": "tsx src/ejercicio3.ts",
+    "test": "vitest run",
+    "typecheck": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "tsx": "^4.23.15",
+    "typescript": "~5.9.3",
+    "vitest": "~4.0.18"
+  }
+}
